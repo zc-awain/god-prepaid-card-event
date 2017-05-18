@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="prepaid-card-event-api:war">
+    <output-path>$PROJECT_DIR$/prepaid-card-event-api/target</output-path>
+    <root id="archive" name="prepaid-card-event.war">
+      <element id="artifact" artifact-name="prepaid-card-event-api:war exploded" />
+    </root>
+  </artifact>
+</component>
