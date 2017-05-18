@@ -4,13 +4,13 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="prepaid-card-event" />
+          <element id="module-output" name="god-prepaid-card-event" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/prepaid-card-event-api/target/prepaid-card-event/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/god-prepaid-card-event-api/target/prepaid-card-event/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="prepaid-card-event/web/Web" />
+      <element id="javaee-facet-resources" facet="god-prepaid-card-event/web/Web" />
     </root>
   </artifact>
 </component>

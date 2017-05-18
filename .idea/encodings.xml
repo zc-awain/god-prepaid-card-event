@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/prepaid-card-event-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/god-prepaid-card-event-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/god-prepaid-card-event-dal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/god-prepaid-card-event-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/god-prepaid-cart-event-domain" charset="UTF-8" />
   </component>
 </project>

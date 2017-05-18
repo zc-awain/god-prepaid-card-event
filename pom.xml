@@ -9,17 +9,15 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.dianping.pay</groupId>
-  <artifactId>prepaid-card-event</artifactId>
+  <groupId>com.dianping.god</groupId>
+  <artifactId>god-prepaid-card-event</artifactId>
   <packaging>pom</packaging>
-  <name>prepaid-card-event</name>
+  <name>god-prepaid-card-event</name>
   <version>0.0.1-SNAPSHOT</version>
 
   <properties>
     <env>qa</env>
-    <project.api.version>0.2.0</project.api.version>
-    <project.manage.api.version>0.1.7-SNAPSHOT</project.manage.api.version>
-    <project.version>0.1.0-SNAPSHOT</project.version>
+    <project.api.version>0.1.0-SNAPSHOT</project.api.version>
     <project.service.version>0.1.0-SNAPSHOT</project.service.version>
     <lion.version>0.6.7</lion.version>
     <pigeon.version>2.9.7</pigeon.version>
@@ -28,7 +26,10 @@
     <springframework-version>3.1.1.RELEASE</springframework-version>
   </properties>
   <modules>
-    <module>prepaid-card-event-api</module>
+    <module>god-prepaid-card-event-api</module>
+    <module>god-prepaid-card-event-service</module>
+    <module>god-prepaid-cart-event-domain</module>
+    <module>god-prepaid-card-event-dal</module>
   </modules>
 
   <dependencyManagement>
@@ -48,46 +49,27 @@
         <artifactId>pay-promo-budget-proxy-api</artifactId>
         <version>0.0.1-SNAPSHOT</version>
       </dependency>
+
       <!-- 内部模块 -->
       <dependency>
-        <groupId>com.dianping.pay</groupId>
-        <artifactId>pay-promo-magiccard-api</artifactId>
+        <groupId>com.dianping.god</groupId>
+        <artifactId>god-prepaid-card-event-api</artifactId>
         <version>${project.api.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.dianping.pay</groupId>
-        <artifactId>pay-promo-magiccard-octo-api</artifactId>
+        <groupId>com.dianping.god</groupId>
+        <artifactId>god-prepaid-card-event-dal</artifactId>
         <version>${project.api.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.dianping.pay</groupId>
-        <artifactId>pay-promo-magiccard-dal</artifactId>
-        <version>${project.version}</version>
+        <groupId>com.dianping.god</groupId>
+        <artifactId>god-prepaid-card-event-service</artifactId>
+        <version>${project.api.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.dianping.pay</groupId>
-        <artifactId>pay-promo-magiccard-domain</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.dianping.pay</groupId>
-        <artifactId>pay-promo-magiccard-service</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.dianping.pay</groupId>
-        <artifactId>pay-promo-magiccard-octo-service</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.dianping.pay</groupId>
-        <artifactId>pay-promo-magiccard-manage-api</artifactId>
-        <version>${project.manage.api.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.dianping.pay</groupId>
-        <artifactId>pay-promo-magiccard-manage-service</artifactId>
-        <version>${project.manage.api.version}</version>
+        <groupId>com.dianping.god</groupId>
+        <artifactId>god-prepaid-cart-event-domain</artifactId>
+        <version>${project.api.version}</version>
       </dependency>
 
       <dependency>

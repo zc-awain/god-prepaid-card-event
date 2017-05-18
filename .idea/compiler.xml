@@ -6,12 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="god-prepaid-card-event-api" />
+        <module name="god-prepaid-card-event-dal" />
+        <module name="god-prepaid-card-event-service" />
+        <module name="god-prepaid-cart-event-domain" />
         <module name="prepaid-card-event-api" />
+        <module name="prepaid-card-event-dal" />
+        <module name="prepaid-card-event-service" />
+        <module name="prepaid-cart-event-domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="god-prepaid-card-event" target="1.6" />
+      <module name="god-prepaid-card-event-api" target="1.6" />
+      <module name="god-prepaid-card-event-dal" target="1.6" />
+      <module name="god-prepaid-card-event-service" target="1.6" />
+      <module name="god-prepaid-cart-event-domain" target="1.6" />
       <module name="prepaid-card-event" target="1.6" />
       <module name="prepaid-card-event-api" target="1.6" />
+      <module name="prepaid-card-event-dal" target="1.6" />
+      <module name="prepaid-card-event-service" target="1.6" />
+      <module name="prepaid-cart-event-domain" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/prepaid-card-event.iml" filepath="$PROJECT_DIR$/prepaid-card-event.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepaid-card-event-api/prepaid-card-event-api.iml" filepath="$PROJECT_DIR$/prepaid-card-event-api/prepaid-card-event-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/god-prepaid-card-event.iml" filepath="$PROJECT_DIR$/god-prepaid-card-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/god-prepaid-card-event-api/god-prepaid-card-event-api.iml" filepath="$PROJECT_DIR$/god-prepaid-card-event-api/god-prepaid-card-event-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/god-prepaid-card-event-dal/god-prepaid-card-event-dal.iml" filepath="$PROJECT_DIR$/god-prepaid-card-event-dal/god-prepaid-card-event-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/god-prepaid-card-event-service/god-prepaid-card-event-service.iml" filepath="$PROJECT_DIR$/god-prepaid-card-event-service/god-prepaid-card-event-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/god-prepaid-cart-event-domain/god-prepaid-cart-event-domain.iml" filepath="$PROJECT_DIR$/god-prepaid-cart-event-domain/god-prepaid-cart-event-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/god-prepaid-card-event-api/prepaid-card-event-api.iml" filepath="$PROJECT_DIR$/god-prepaid-card-event-api/prepaid-card-event-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/god-prepaid-card-event-dal/prepaid-card-event-dal.iml" filepath="$PROJECT_DIR$/god-prepaid-card-event-dal/prepaid-card-event-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/god-prepaid-card-event-service/prepaid-card-event-service.iml" filepath="$PROJECT_DIR$/god-prepaid-card-event-service/prepaid-card-event-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/god-prepaid-cart-event-domain/prepaid-cart-event-domain.iml" filepath="$PROJECT_DIR$/god-prepaid-cart-event-domain/prepaid-cart-event-domain.iml" />
     </modules>
   </component>
 </project>
